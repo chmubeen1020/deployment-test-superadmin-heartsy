@@ -3,7 +3,7 @@ import { ArrowLeft, X, Upload, RefreshCw, Loader2 } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
-const EditBlogForm = () => {
+const EditBlog = () => {
   const navigate = useNavigate();
   const { id } = useParams();
   const fileInputRef = useRef(null);
@@ -438,4 +438,4 @@ const EditBlogForm = () => {
   );
 };
 
-export default EditBlogForm;
+export default EditBlog;

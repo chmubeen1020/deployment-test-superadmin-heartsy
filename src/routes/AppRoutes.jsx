@@ -36,9 +36,9 @@ import SubscrptionAndBiling from "../auth/superAdmin/pages/subscriptionandbillin
 import SuperAdminReports from "../auth/superAdmin/pages/reports/SuperAdminReports";
 import AllBlogs from "../auth/superAdmin/pages/blogs/AllBlogs";
 import BlogDetail from "../auth/superAdmin/pages/blogs/BlogDetail";
-import EditBlogForm from "../auth/superAdmin/pages/Blogs/EditBlogForm";
 import AddBlogForm from "../auth/superAdmin/pages/blogs/AddBlogForm";
 import UserCourseView from "../auth/superAdmin/pages/user-management/UserCourseView";
+import EditBlog from "../auth/superAdmin/pages/Blogs/EditBlogForm";
 
 
 
@@ -85,7 +85,7 @@ export default function AppRoutes() {
         <Route path="all-blogs" element={<AllBlogs/>} />
         <Route path="blog/:id" element={<BlogDetail/>} />
         <Route path="all-blogs/add" element={<AddBlogForm/>} />
-        <Route path="all-blogs/edit/:id" element={<EditBlogForm/>} />
+        <Route path="all-blogs/edit/:id" element={<EditBlog/>} />
       </Route>
     </Routes>
   );
