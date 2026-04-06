@@ -38,7 +38,7 @@ import AllBlogs from "../auth/superAdmin/pages/blogs/AllBlogs";
 import BlogDetail from "../auth/superAdmin/pages/blogs/BlogDetail";
 import AddBlogForm from "../auth/superAdmin/pages/blogs/AddBlogForm";
 import UserCourseView from "../auth/superAdmin/pages/user-management/UserCourseView";
-import EditBlog from "../auth/superAdmin/pages/Blogs/EditBlogForm";
+import EditBlog from "../auth/superAdmin/pages/blogs/EditBlog";
 
 
 
