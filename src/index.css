@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Existing colors */
+  --color-primary: #7028E4;
+  --color-secondary: #6366f1;
+  --color-background: #09090b;
+  --color-foreground: #ffffff;
+  --color-sidebar: #FAFAFA;
+
+  /* Adding the infinite scroll animation */
+  --animate-scroll: scroll 40s linear infinite;
+
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
